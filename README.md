@@ -1,11 +1,11 @@
 # Noise.jl
 ## Prelude
-```julia
+```julia-prompt
 julia> using Noise, Images, Plots
 ```
 
 ## Worley
-```julia
+```julia-prompt
 julia> G = Worley(1024)
 Worley([0.0195399 0.48826 … 0.801658 0.660078])
 
