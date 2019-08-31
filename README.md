@@ -1,6 +1,6 @@
 # Noise.jl
 ## Worley
-```
+```julia-prompt
 julia> G = Worley(1024)
 Worley([0.0195399 0.48826 … 0.801658 0.660078])
 
@@ -13,7 +13,7 @@ julia> xaxis = range(0, 1, length=640)
 julia> yaxis = range(0, 1, length=480)
 0.0:0.0020876826722338203:1.0
 
-julia> A = [F1(x, y) for x in xaxis, y in yaxis]
+julia> A = [F1(x, y) for y in yaxis, x in xaxis]
 640×480 Array{Float64,2}:
 ...
 
