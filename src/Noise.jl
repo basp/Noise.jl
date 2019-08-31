@@ -1,8 +1,6 @@
 module Noise
 
 using LinearAlgebra
-using Images
-using Plots
 
 export Worley
 
